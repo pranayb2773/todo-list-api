@@ -4,9 +4,9 @@
 This is a sample to-do list RESTful API created using Laravel framework. With this API, you can manage your to-do list like view, create, edit and delete functionalities. I have added some other features like Auth where user can login and logout. Laravel Sanctum package is used to create token for users. I have put some access controls to limit sort of operation user can perform.
 
 ## Features
-- **Users**
-- **Tags**
-- **TodoLists**
+- **Users** - Admin user can do all operations on user. Normal user can only view, update his data.
+- **Tags** - Any logged in user can perform all operations on tags.
+- **TodoLists** - Admin user can do all operations on todo-lists. Normal user can only view, create, update, delete his todo list data.
 
 ## Installation
 To install with Docker, run following commands:
