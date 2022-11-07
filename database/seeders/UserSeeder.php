@@ -23,6 +23,13 @@ class UserSeeder extends Seeder
             'is_admin' => 1,
         ]);
 
+        User::create([
+            'name' => 'Pranay',
+            'email' => 'pranayb2773@gmail.com',
+            'password' => Hash::make('password'),
+            'is_admin' => 0,
+        ]);
+
         User::factory()->create();
     }
 }
