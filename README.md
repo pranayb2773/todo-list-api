@@ -40,7 +40,7 @@ Configuring A Bash Alias
 alias sail='[ -f sail ] && bash sail || bash vendor/bin/sail'
 
 ``` 
-To start all of the Docker containers in the background, you may start Sail in "detached" mode:
+To start all the Docker containers in the background, you may start Sail in "detached" mode:
 ``` 
 sail up -d
 ``` 
