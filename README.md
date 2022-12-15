@@ -5,7 +5,7 @@ This is a sample to-do list RESTful API created using Laravel framework. With th
 
 ## Features
 - **Users** - Admin user can do all operations on user. Normal user can only view, update his data.
-- **Tags** - Any logged in user can perform all operations on tags.
+- **Tags** - Any logged-in user can perform all operations on tags.
 - **TodoLists** - Admin user can do all operations on todo-lists. Normal user can only view, create, update, delete his todo list data.
 
 ## Installation
